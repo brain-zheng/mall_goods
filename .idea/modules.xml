@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/goodscenter.iml" filepath="$PROJECT_DIR$/goodscenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodscenter-client/goodscenter-client.iml" filepath="$PROJECT_DIR$/goodscenter-client/goodscenter-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodscenter-common/goodscenter-common.iml" filepath="$PROJECT_DIR$/goodscenter-common/goodscenter-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodscenter-dal/goodscenter-dal.iml" filepath="$PROJECT_DIR$/goodscenter-dal/goodscenter-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodscenter-server/goodscenter-server.iml" filepath="$PROJECT_DIR$/goodscenter-server/goodscenter-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodscenter-service/goodscenter-service.iml" filepath="$PROJECT_DIR$/goodscenter-service/goodscenter-service.iml" />
+    </modules>
+  </component>
+</project>
