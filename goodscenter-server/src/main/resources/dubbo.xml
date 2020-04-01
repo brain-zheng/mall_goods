@@ -7,8 +7,8 @@
        http://dubbo.apache.org/schema/dubbo
        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-    <!-- 服务提供者暴露服务配置 -->
-    <!--<dubbo:service ref="LoginRPCServiceImpl" interface="com.mall.admincenter.client.service.LoginRPCService"-->
-                   <!--version="1.0.0" retries="0" />-->
+     <!--服务提供者暴露服务配置 -->
+    <dubbo:service ref="MallCarouselServiceImpl" interface="com.mall.goodscenter.client.service.MallCarouselService"
+                   version="1.0.0" retries="0" />
 
 </beans>

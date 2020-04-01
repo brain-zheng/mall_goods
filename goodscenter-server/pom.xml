@@ -36,6 +36,16 @@
     </distributionManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>goodscenter-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>goodscenter-service</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

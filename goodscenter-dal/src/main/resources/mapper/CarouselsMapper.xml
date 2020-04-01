@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.goodscenter.dal.dao.CarouselDAO">
+
+    <resultMap id="BaseResultMap" type="com.mall.goodscenter.dal.dataobject.CarouselDO">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="carousel_url" jdbcType="VARCHAR" property="carouselUrl"/>
+        <result column="redirect_url" jdbcType="VARCHAR" property="redirectUrl"/>
+        <result column="carousel_rank" jdbcType="INTEGER" property="carouselRank"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="feature" jdbcType="VARCHAR" property="feature" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+    </resultMap>
+    
+    <sql id="Base_Column_List">
+    id, carousel_url, redirect_url, carousel_rank, is_deleted, feature, create_time, update_time
+    </sql>
+
+    <select id="findCarouselList" parameterType="com.mall.common.service.util.PageQueryUtil" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mall_carousel
+        where is_deleted = 0
+        order by carousel_rank desc
+        <if test="start!=null and limit!=null">
+            limit #{start},#{limit}
+        </if>
+    </select>
+
+    <select id="getTotalCarousels" parameterType="com.mall.common.service.util.PageQueryUtil" resultType="int">
+        select count(*) from mall_carousel
+        where is_deleted = 0
+    </select>
+
+    <select id="getById" parameterType="Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mall_carousel
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="Integer">
+    delete from mall_carousel
+    where id = #{id,jdbcType=INTEGER}
+    </delete>
+
+    <insert id="create" parameterType="com.mall.goodscenter.dal.dataobject.CarouselDO" useGeneratedKeys="true" keyProperty="id">
+    insert into mall_carousel (id, carousel_url, redirect_url,
+      carousel_rank, is_deleted, feature, create_time, update_time
+      )
+    values (#{id,jdbcType=INTEGER}, #{carouselUrl,jdbcType=VARCHAR}, #{redirectUrl,jdbcType=VARCHAR},
+      #{carouselRank,jdbcType=INTEGER}, #{isDeleted,jdbcType=TINYINT}, #{feature,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP}
+      )
+    </insert>
+
+
+    <insert id="insertSelective" parameterType="com.mall.goodscenter.dal.dataobject.CarouselDO">
+        insert into mall_carousel
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="carouselUrl != null">
+                carousel_url,
+            </if>
+            <if test="redirectUrl != null">
+                redirect_url,
+            </if>
+            <if test="carouselRank != null">
+                carousel_rank,
+            </if>
+            <if test="isDeleted != null">
+                is_deleted,
+            </if>
+            <if test="feature != null">
+                feature,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="carouselUrl != null">
+                #{carouselUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="redirectUrl != null">
+                #{redirectUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="carouselRank != null">
+                #{carouselRank,jdbcType=INTEGER},
+            </if>
+            <if test="isDeleted != null">
+                #{isDeleted,jdbcType=TINYINT},
+            </if>
+            <if test="feature != null">
+                #{feature,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.mall.goodscenter.dal.dataobject.CarouselDO">
+        update mall_carousel
+        <set>
+            <if test="carouselUrl != null">
+                carousel_url = #{carouselUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="redirectUrl != null">
+                redirect_url = #{redirectUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="carouselRank != null">
+                carousel_rank = #{carouselRank,jdbcType=INTEGER},
+            </if>
+            <if test="isDeleted != null">
+                is_deleted = #{isDeleted,jdbcType=TINYINT},
+            </if>
+            <if test="feature != null">
+                feature = #{feature,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <update id="update" parameterType="com.mall.goodscenter.dal.dataobject.CarouselDO">
+    update mall_carousel
+    set carousel_url = #{carouselUrl,jdbcType=VARCHAR},
+      redirect_url = #{redirectUrl,jdbcType=VARCHAR},
+      carousel_rank = #{carouselRank,jdbcType=INTEGER},
+      is_deleted = #{isDeleted,jdbcType=TINYINT},
+      feature = #{feature,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <update id="deleteBatch">
+        update mall_carousel
+        set is_deleted=1,update_time=now() where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
+
+</mapper>

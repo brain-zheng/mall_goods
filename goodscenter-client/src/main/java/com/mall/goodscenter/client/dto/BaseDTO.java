@@ -18,7 +18,7 @@ public class BaseDTO implements Serializable {
     /**
      * 主键
      */
-    private Long id;
+    private Integer id;
 
     /**
      * 创建时间

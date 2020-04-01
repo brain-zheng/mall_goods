@@ -10,7 +10,7 @@ spring:
 dubbo:
   # Dubbo 应用配置
   application:
-    name: admin-center # 应用名
+    name: goods-center # 应用名
   # Dubbo 注册中心配
   registry:
     address: zookeeper://127.0.0.1:2181 # 注册中心地址。个鞥多注册中心，可见 http://dubbo.apache.org/zh-cn/docs/user/references/registry/introduction.html 文档。

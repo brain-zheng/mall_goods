@@ -2,146 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68090c0a-29ef-4f81-b480-8b9d6a251158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admincenter_common_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admincenter_common_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_2_7_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_compatible_2_7_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_starter_2_7_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_12_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/test/java/com/mall/admincenterclient/AdmincenterClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-common/goodscenter-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/application-dal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/spring/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/test/java/com/mall/admincenterdal/AdmincenterDalApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/GoodsCenterServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mall_common_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/CarouselDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/enums/ServiceResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/CarouselDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/CarouselsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/CarouselDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallCarouselConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCarouselManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCarouselServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-common/goodscenter-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-common/goodscenter-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodscenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/admincenter-client/target/" />
@@ -161,14 +49,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -176,9 +78,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>admincenter</find>
+      <find>carouselId</find>
+      <find>create_user</find>
+      <find>tb_newbee_mall_carousel</find>
+      <find>varchar</find>
+      <find>PageQueryUtil</find>
+      <find>findCarouselList</find>
+      <find>list</find>
     </findStrings>
     <replaceStrings>
       <replace>goodscenter</replace>
+      <replace>id</replace>
+      <replace>mall_carousel</replace>
+      <replace>queue</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/goodscenter-service/src/test</dir>
@@ -188,16 +100,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master_" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admincenter-common/pom.xml" />
-        <option value="$PROJECT_DIR$/admincenter-dal/pom.xml" />
-        <option value="$PROJECT_DIR$/admincenter-client/pom.xml" />
         <option value="$PROJECT_DIR$/admincenter-dal/src/main/java/com/mall/admincenter/dal/dataobject/BaseDO.java" />
         <option value="$PROJECT_DIR$/admincenter-dal/src/main/java/com/mall/admincenter/dal/dataobject/AdminUserDO.java" />
         <option value="$PROJECT_DIR$/admincenter-dal/src/main/resources/sql/admincenter.sql" />
@@ -219,18 +128,36 @@
         <option value="$PROJECT_DIR$/admincenter-service/src/main/java/com/mall/admincenter/service/manager/LoginManager.java" />
         <option value="$PROJECT_DIR$/admincenter-server/src/test/java/com/mall/admincenterserver/daltest/adminUserDAOTest.java" />
         <option value="$PROJECT_DIR$/admincenter-dal/src/main/resources/mapper/AdminUserMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/goodscenter-client/pom.xml" />
         <option value="$PROJECT_DIR$/goodscenter-common/pom.xml" />
         <option value="$PROJECT_DIR$/goodscenter-dal/pom.xml" />
-        <option value="$PROJECT_DIR$/goodscenter-server/pom.xml" />
-        <option value="$PROJECT_DIR$/goodscenter-service/pom.xml" />
-        <option value="$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/goodscenter-dal/src/main/resources/application-dal.yml" />
         <option value="$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/AdmincenterServerApplication.java" />
         <option value="$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/GoodsCenterServerApplication.java" />
         <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/BaseTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/CarouselDAP.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/CarouselDAO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/pom.xml" />
+        <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/CarouselDTO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallCarouselConverter.java" />
+        <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/enums/ServiceResultEnum.java" />
+        <option value="$PROJECT_DIR$/goodscenter-server/pom.xml" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/CarouselsMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCarouselService.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCarouselServiceImpl.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCarouselManager.java" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/CarouselDAOTest.java" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main.java" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/answer.txt" />
+        <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main2.java" />
       </list>
     </option>
   </component>
@@ -252,18 +179,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="admincenter-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="goodscenter-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="admincenter-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="goodscenter-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -276,103 +203,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodscenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodscenter" type="462c0819:PsiDirectoryNode" />
-              <item name="goodscenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +226,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584854074998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585112997176" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,6 +239,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mall.goodscenter.client.enums" />
       <recent name="com.mall.admincenter.dal.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -419,7 +259,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdmincenterServerApplication">
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mall.goodscenterserver.daltest.Main" />
+      <module name="goodscenter-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mall.goodscenterserver.daltest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mall.goodscenterserver.daltest.Main2" />
+      <module name="goodscenter-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mall.goodscenterserver.daltest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarouselDAOTest.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="goodscenter-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mall.goodscenterserver.daltest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mall.goodscenterserver.daltest" />
+      <option name="MAIN_CLASS_NAME" value="com.mall.goodscenterserver.daltest.CarouselDAOTest" />
+      <option name="METHOD_NAME" value="getList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="adminUserDAOTest.getAdminUserByUserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="goodscenter-server" />
       <extension name="coverage">
@@ -432,53 +314,6 @@
       <option name="MAIN_CLASS_NAME" value="com.mall.admincenterserver.daltest.adminUserDAOTest" />
       <option name="METHOD_NAME" value="getAdminUserByUserNameTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="goodscenter-dal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="goodscenter-dal" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -504,8 +339,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoodsCenterServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="goodscenter-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mall.goodscenter.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.goodscenter.server.GoodsCenterServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.GoodsCenterServerApplication" />
+        <item itemvalue="JUnit.CarouselDAOTest.getList" />
         <item itemvalue="JUnit.adminUserDAOTest.getAdminUserByUserNameTest" />
       </list>
     </recent_temporary>
@@ -523,7 +375,10 @@
       <workItem from="1584618639680" duration="8639000" />
       <workItem from="1584687823295" duration="4412000" />
       <workItem from="1584763883697" duration="6577000" />
-      <workItem from="1584852770768" duration="1084000" />
+      <workItem from="1584852770768" duration="2314000" />
+      <workItem from="1584855858954" duration="23693000" />
+      <workItem from="1585124957330" duration="143000" />
+      <workItem from="1585639968286" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="admincenter 登录功能完成">
       <created>1584778990307</created>
@@ -548,15 +403,20 @@
     <history-entry file="adminUserDAOTest_getAdminUserByUserNameTest - 2020.03.20 at 13h 52m 51s.xml">
       <configuration name="adminUserDAOTest.getAdminUserByUserNameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CarouselDAOTest_getList - 2020.03.22 at 18h 37m 53s.xml">
+      <configuration name="CarouselDAOTest.getList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarouselDAOTest_getList - 2020.03.22 at 18h 40m 09s.xml">
+      <configuration name="CarouselDAOTest.getList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20712000" />
+    <option name="totallyTimeSpent" value="46457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38691437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28917608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -567,7 +427,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49726027" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,10 +446,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1987076" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.33844912" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -640,108 +500,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="admincenter 登录功能完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admincenter-com/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/admincenter.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admincenter-server/src/test/java/com/mall/admincenterserver/daltest.java" />
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admincenter-service/src/main/java/com/mall/admincenter/service/service/LoginRPCServiceImpl.kt" />
-    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/AdminUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/admincenter/client/dto/AdminUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/admincenter/client/service/LoginRPCService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/AdminUserConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/LoginRPCServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/LoginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/admincenterserver/daltest/adminUserDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/AdminUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/AdminUserDAO.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/admincenter/client/dto/AdminUserDTO.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/admincenter/client/service/LoginRPCService.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/AdminUserConverter.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/LoginRPCServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/LoginManager.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/admincenterserver/daltest/adminUserDAOTest.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/AdminUserMapper.xml" />
     <entry file="file://$PROJECT_DIR$/goodscenter-dal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -754,22 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-895">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -787,22 +539,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/GoodsCenterServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/AdminUserDO.java" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/test/java/com/mall/admincenterservice/AdmincenterServiceApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/BaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/BaseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/BaseDAO.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/CarouselDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/domain/ServiceResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/util/ResultGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/util/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/enums/ServiceResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallCarouselConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/goodscenter-server/src/main/resources/dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -811,43 +639,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/AdminUserDO.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/application-dal.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar!/org/apache/ibatis/type/TypeAliasRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/spring/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/GoodsCenterServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/application-dal.yml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="129">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/util/PageQueryUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/test/java/com/mall/admincenterservice/AdmincenterServiceApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/CarouselDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/sql/goodscenter.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/CarouselsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1754">
+          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCarouselService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCarouselManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/answer.txt" />
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/CarouselDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

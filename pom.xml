@@ -45,6 +45,12 @@
     </distributionManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.mall</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!-- springboot快速启动依赖-->
         <!-- 测试模块-->
         <dependency>
@@ -115,6 +121,13 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
+        </dependency>
+
     </dependencies>
 
     <build>
