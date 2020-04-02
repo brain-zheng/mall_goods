@@ -11,4 +11,7 @@
     <dubbo:service ref="MallCarouselServiceImpl" interface="com.mall.goodscenter.client.service.MallCarouselService"
                    version="1.0.0" retries="0" />
 
+    <dubbo:service ref="MallCategoryServiceImpl" interface="com.mall.goodscenter.client.service.MallCategoryService"
+                   version="1.0.0" retries="0" />
+
 </beans>

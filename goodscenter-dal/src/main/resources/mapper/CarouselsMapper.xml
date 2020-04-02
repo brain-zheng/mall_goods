@@ -77,12 +77,7 @@
             <if test="feature != null">
                 feature,
             </if>
-            <if test="createTime != null">
-                create_time,
-            </if>
-            <if test="updateTime != null">
-                update_time,
-            </if>
+                create_time,update_time
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="id != null">
@@ -103,12 +98,7 @@
             <if test="feature != null">
                 #{feature,jdbcType=VARCHAR},
             </if>
-            <if test="createTime != null">
-                #{createTime,jdbcType=TIMESTAMP},
-            </if>
-            <if test="updateTime != null">
-                #{updateTime,jdbcType=TIMESTAMP},
-            </if>
+            now(),now()
         </trim>
     </insert>
 
@@ -116,28 +106,23 @@
         update mall_carousel
         <set>
             <if test="carouselUrl != null">
-                carousel_url = #{carouselUrl,jdbcType=VARCHAR},
+                carousel_url = #{carouselUrl},
             </if>
             <if test="redirectUrl != null">
-                redirect_url = #{redirectUrl,jdbcType=VARCHAR},
+                redirect_url = #{redirectUrl},
             </if>
             <if test="carouselRank != null">
-                carousel_rank = #{carouselRank,jdbcType=INTEGER},
+                carousel_rank = #{carouselRank},
             </if>
             <if test="isDeleted != null">
-                is_deleted = #{isDeleted,jdbcType=TINYINT},
+                is_deleted = #{isDeleted},
             </if>
             <if test="feature != null">
-                feature = #{feature,jdbcType=VARCHAR},
+                feature = #{feature},
             </if>
-            <if test="createTime != null">
-                create_time = #{createTime,jdbcType=TIMESTAMP},
-            </if>
-            <if test="updateTime != null">
-                update_time = #{updateTime,jdbcType=TIMESTAMP},
-            </if>
+                update_time = now()
         </set>
-        where id = #{id,jdbcType=INTEGER}
+        where id = #{id}
     </update>
 
     <update id="update" parameterType="com.mall.goodscenter.dal.dataobject.CarouselDO">
@@ -147,8 +132,7 @@
       carousel_rank = #{carouselRank,jdbcType=INTEGER},
       is_deleted = #{isDeleted,jdbcType=TINYINT},
       feature = #{feature,jdbcType=VARCHAR},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      update_time = #{updateTime,jdbcType=TIMESTAMP}
+      update_time = now()
     where id = #{id,jdbcType=INTEGER}
     </update>
 

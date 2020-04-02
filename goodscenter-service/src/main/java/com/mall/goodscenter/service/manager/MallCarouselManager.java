@@ -10,6 +10,7 @@ import com.mall.goodscenter.service.converter.MallCarouselConverter;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,7 +27,11 @@ public class MallCarouselManager {
     public PageResult getCarouselPage(PageQueryUtil pageUtil) {
         List<CarouselDO> carousels = carouselDAO.findCarouselList(pageUtil);
         int total = carouselDAO.getTotalCarousels(pageUtil);
-        return new PageResult(carousels, total, pageUtil.getLimit(), pageUtil.getPage());
+        List<CarouselDTO> carouselDTOS = new ArrayList<>();
+        for(CarouselDO carouselDO : carousels) {
+            carouselDTOS.add(MallCarouselConverter.carouselDO2DTO(carouselDO));
+        }
+        return new PageResult(carouselDTOS, total, pageUtil.getLimit(), pageUtil.getPage());
     }
 
     public String saveCarousel(CarouselDTO carouselDTO){
@@ -50,7 +55,8 @@ public class MallCarouselManager {
         if (temp == null) {
             return ServiceResultEnum.DATA_NOT_EXIST.getResult();
         }
-        if (carouselDAO.updateByPrimaryKeySelective(temp) > 0) {
+        int num = carouselDAO.update(temp);
+        if (num > 0) {
             return ServiceResultEnum.SUCCESS.getResult();
         }
         return ServiceResultEnum.DB_ERROR.getResult();

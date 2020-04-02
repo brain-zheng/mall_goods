@@ -21,7 +21,7 @@ Spring:
       test-while-idle: true
       test-on-borrow: false
       test-on-return: false
-
+      DefaultAutoCommit: true
 
 # mybatis配置
 mybatis:
