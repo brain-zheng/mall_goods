@@ -5,6 +5,8 @@ import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.GoodsCategoryDTO;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * @author zheng haijain
  * @createTime 2020-04-01 15:53
@@ -23,5 +25,8 @@ public interface MallCategoryService {
     int updateByPrimaryKeySelective(GoodsCategoryDTO record);
 
     Boolean deleteBatch(Integer[] ids);
+
+    List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel);
+
 
 }

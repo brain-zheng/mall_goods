@@ -1,6 +1,5 @@
 package com.mall.goodscenter.dal.dao;
 
-import com.mall.common.service.util.PageQueryUtil;
 import com.mall.goodscenter.dal.dataobject.GoodsCategoryDO;
 import org.apache.ibatis.annotations.Param;
 
@@ -22,5 +21,7 @@ public interface GoodsCategoryDAO extends BaseDAO<GoodsCategoryDO>{
     int insertSelective(GoodsCategoryDO record);
 
     int deleteBatch(Integer[] ids);
+
+    List<GoodsCategoryDO> selectByLevelAndParentIdsAndNumber(@Param("parentIds") List<Integer> parentIds, @Param("categoryLevel") int categoryLevel, @Param("number") int number);
 
 }

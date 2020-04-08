@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -69,5 +70,13 @@ public class MallCategoryServiceImpl implements MallCategoryService {
         }
         //删除分类数据
         return mallCategoryManager.deleteBatch(ids) > 0;
+    }
+
+    @Override
+    public List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel) {
+        if (parentIds == null || parentIds.size() == 0) {
+            return null;
+        }
+        return mallCategoryManager.selectByLevelAndParentIdsAndNumber(parentIds, categoryLevel, 0);
     }
 }

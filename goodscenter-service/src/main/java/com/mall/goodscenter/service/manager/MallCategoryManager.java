@@ -66,4 +66,16 @@ public class MallCategoryManager {
     public int deleteBatch(Integer[] ids) {
         return goodsCategoryDAO.deleteBatch(ids);
     }
+
+    public List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel, int number) {
+        List<GoodsCategoryDO> goodsCategoryDOS = goodsCategoryDAO.selectByLevelAndParentIdsAndNumber(parentIds, categoryLevel, number);
+        if (goodsCategoryDOS == null || goodsCategoryDOS.size() == 0) {
+            return null;
+        }
+        List<GoodsCategoryDTO> goodsCategoryDTOS = new ArrayList<>();
+        for (GoodsCategoryDO goodsCategoryDO : goodsCategoryDOS) {
+            goodsCategoryDTOS.add(MallGoodsCategoryConverter.goodsCategoryDO2DTO(goodsCategoryDO));
+        }
+        return goodsCategoryDTOS;
+    }
 }
