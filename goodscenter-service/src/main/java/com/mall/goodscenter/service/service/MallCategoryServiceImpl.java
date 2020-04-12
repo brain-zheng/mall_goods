@@ -73,10 +73,10 @@ public class MallCategoryServiceImpl implements MallCategoryService {
     }
 
     @Override
-    public List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel) {
+    public List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel, int number) {
         if (parentIds == null || parentIds.size() == 0) {
             return null;
         }
-        return mallCategoryManager.selectByLevelAndParentIdsAndNumber(parentIds, categoryLevel, 0);
+        return mallCategoryManager.selectByLevelAndParentIdsAndNumber(parentIds, categoryLevel, number);
     }
 }

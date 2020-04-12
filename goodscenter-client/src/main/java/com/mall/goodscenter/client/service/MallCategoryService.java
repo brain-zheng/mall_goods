@@ -26,7 +26,7 @@ public interface MallCategoryService {
 
     Boolean deleteBatch(Integer[] ids);
 
-    List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel);
+    List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel, int number);
 
 
 }
