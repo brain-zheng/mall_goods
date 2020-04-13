@@ -4,6 +4,8 @@ import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.CarouselDTO;
 
+import java.util.List;
+
 /**
  * @author zheng haijain
  * @createTime 2020-03-22 14:29
@@ -20,5 +22,7 @@ public interface MallCarouselService {
     CarouselDTO getCarouselById(Integer id);
 
     Boolean deleteBatch(Integer[] ids);
+
+    List<CarouselDTO> findCarouselsByNum(Integer num);
 
 }

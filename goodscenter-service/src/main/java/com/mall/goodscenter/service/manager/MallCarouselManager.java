@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author zheng haijain
@@ -74,4 +75,8 @@ public class MallCarouselManager {
         return carouselDAO.deleteBatch(ids) > 0;
     }
 
+    public List<CarouselDTO> findCarouselsByNum(Integer num) {
+        List<CarouselDO> carouselDOS = carouselDAO.findCarouselsByNum(num);
+        return carouselDOS.stream().map(MallCarouselConverter::carouselDO2DTO).collect(Collectors.toList());
+    }
 }

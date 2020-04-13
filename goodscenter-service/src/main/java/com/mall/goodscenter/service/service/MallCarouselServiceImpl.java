@@ -10,6 +10,7 @@ import com.mall.goodscenter.service.manager.MallCarouselManager;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author zheng haijain
@@ -61,5 +62,13 @@ public class MallCarouselServiceImpl implements MallCarouselService {
         }
         //删除数据
         return mallCarouselManager.deleteBatch(ids);
+    }
+
+    @Override
+    public List<CarouselDTO> findCarouselsByNum(Integer num) {
+        if (num <= 0) {
+            return null;
+        }
+        return mallCarouselManager.findCarouselsByNum(num);
     }
 }

@@ -2,6 +2,7 @@ package com.mall.goodscenter.dal.dao;
 
 import com.mall.common.service.util.PageQueryUtil;
 import com.mall.goodscenter.dal.dataobject.CarouselDO;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -23,5 +24,7 @@ public interface CarouselDAO extends BaseDAO<CarouselDO> {
     int deleteBatch(Integer[] ids);
 
     int deleteByPrimaryKey(Integer carouselId);
+
+    List<CarouselDO> findCarouselsByNum(@Param("number") int number);
 
 }
