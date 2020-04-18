@@ -10,6 +10,8 @@ import lombok.Data;
 @Data
 public class GoodsCategoryDTO extends BaseDTO {
 
+    private static final long serialVersionUID = -5978759623996746201L;
+
     /**
      * 分类级别
      */

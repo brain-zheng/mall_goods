@@ -16,7 +16,7 @@ public class GoodsInfoDO extends BaseDO {
 
     private String goodsIntro;
 
-    private Long goodsCategoryId;
+    private Integer goodsCategoryId;
 
     private String goodsCoverImg;
 
