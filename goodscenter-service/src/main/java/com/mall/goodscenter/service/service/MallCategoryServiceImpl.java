@@ -3,6 +3,7 @@ package com.mall.goodscenter.service.service;
 import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.GoodsCategoryDTO;
+import com.mall.goodscenter.client.dto.SearchPageCategoryDTO;
 import com.mall.goodscenter.client.service.MallCategoryService;
 import com.mall.goodscenter.service.manager.MallCategoryManager;
 import org.springframework.stereotype.Service;
@@ -78,5 +79,13 @@ public class MallCategoryServiceImpl implements MallCategoryService {
             return null;
         }
         return mallCategoryManager.selectByLevelAndParentIdsAndNumber(parentIds, categoryLevel, number);
+    }
+
+    @Override
+    public SearchPageCategoryDTO getCategoriesForSearch(Integer categoryId) {
+        if (categoryId < 0 ) {
+            return null;
+        }
+        return mallCategoryManager.getCategoriesForSearch(categoryId);
     }
 }

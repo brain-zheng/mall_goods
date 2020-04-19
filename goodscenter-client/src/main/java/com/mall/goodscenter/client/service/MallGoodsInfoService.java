@@ -24,4 +24,6 @@ public interface MallGoodsInfoService {
 
     Boolean batchUpdateSellStatus(Integer[] ids,int sellStatus);
 
+    PageResult searchMallGoods(PageQueryUtil pageUtil, Integer goodsCategoryId, String orderBy, String keyWord);
+
 }

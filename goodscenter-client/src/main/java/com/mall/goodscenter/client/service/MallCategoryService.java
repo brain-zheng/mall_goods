@@ -3,6 +3,7 @@ package com.mall.goodscenter.client.service;
 import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.GoodsCategoryDTO;
+import com.mall.goodscenter.client.dto.SearchPageCategoryDTO;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -28,5 +29,6 @@ public interface MallCategoryService {
 
     List<GoodsCategoryDTO> selectByLevelAndParentIdsAndNumber(List<Integer> parentIds, int categoryLevel, int number);
 
+    SearchPageCategoryDTO getCategoriesForSearch(Integer categoryId);
 
 }

@@ -24,4 +24,5 @@ public interface GoodsCategoryDAO extends BaseDAO<GoodsCategoryDO>{
 
     List<GoodsCategoryDO> selectByLevelAndParentIdsAndNumber(@Param("parentIds") List<Integer> parentIds, @Param("categoryLevel") int categoryLevel, @Param("number") int number);
 
+
 }

@@ -1,5 +1,6 @@
 package com.mall.goodscenter.service.service;
 
+import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.MallGoodsInfoDTO;
 import com.mall.goodscenter.client.dto.MallGoodsPageDTO;
@@ -58,5 +59,13 @@ public class MallGoodsInfoServiceImpl implements MallGoodsInfoService {
             return null;
         }
         return mallGoodsInfoManager.batchUpdateSellStatus(ids, sellStatus) > 0;
+    }
+
+    @Override
+    public PageResult searchMallGoods(PageQueryUtil pageUtil, Integer goodsCategoryId, String orderBy, String keyWord) {
+        if (pageUtil == null) {
+            return null;
+        }
+        return mallGoodsInfoManager.searchMallGoods(pageUtil, goodsCategoryId, orderBy, keyWord);
     }
 }

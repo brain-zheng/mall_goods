@@ -1,5 +1,6 @@
 package com.mall.goodscenter.service.manager;
 
+import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.MallGoodsInfoDTO;
 import com.mall.goodscenter.client.dto.MallGoodsPageDTO;
@@ -10,9 +11,12 @@ import com.mall.goodscenter.dal.dataobject.GoodsInfoPageDO;
 import com.mall.goodscenter.service.converter.MallGoodsInfoConverter;
 import com.mall.goodscenter.service.converter.MallGoodsPageConverter;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author zheng haijain
@@ -61,6 +65,29 @@ public class MallGoodsInfoManager {
 
     public int batchUpdateSellStatus(Integer[] ids, int sellStatus) {
         return goodsInfoDAO.batchUpdateSellStatus(ids, sellStatus);
+    }
+
+    public PageResult searchMallGoods(PageQueryUtil pageUtil, Integer goodsCategoryId, String orderBy, String keyWord) {
+        List<GoodsInfoDO> goodsInfoDOS = goodsInfoDAO.findNewBeeMallGoodsListBySearch(pageUtil.getStart(), pageUtil.getLimit(), goodsCategoryId, orderBy, keyWord);
+        List<MallGoodsInfoDTO> goodsInfoDTOS = goodsInfoDOS.stream().map(MallGoodsInfoConverter::do2dto).collect(Collectors.toList());
+        if (!CollectionUtils.isEmpty(goodsInfoDTOS)){
+            for (MallGoodsInfoDTO goodsInfoDTO : goodsInfoDTOS) {
+                String goodsName = goodsInfoDTO.getGoodsName();
+                String goodsIntro = goodsInfoDTO.getGoodsIntro();
+                // 字符串过长导致文字超出的问题
+                if (goodsName.length() > 28) {
+                    goodsName = goodsName.substring(0, 28) + "...";
+                    goodsInfoDTO.setGoodsName(goodsName);
+                }
+                if (goodsIntro.length() > 30) {
+                    goodsIntro = goodsIntro.substring(0, 30) + "...";
+                    goodsInfoDTO.setGoodsIntro(goodsIntro);
+                }
+            }
+        }
+        int total = goodsInfoDAO.getTotalNewBeeMallGoodsBySearch(pageUtil.getStart(), pageUtil.getLimit(), goodsCategoryId, keyWord);
+        PageResult pageResult = new PageResult(goodsInfoDTOS, total, pageUtil.getLimit(), pageUtil.getPage());
+        return pageResult;
     }
 
 }
