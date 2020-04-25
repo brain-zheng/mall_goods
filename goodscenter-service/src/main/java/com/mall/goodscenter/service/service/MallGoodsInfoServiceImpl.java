@@ -4,11 +4,13 @@ import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.MallGoodsInfoDTO;
 import com.mall.goodscenter.client.dto.MallGoodsPageDTO;
+import com.mall.goodscenter.client.dto.StockNumDTO;
 import com.mall.goodscenter.client.service.MallGoodsInfoService;
 import com.mall.goodscenter.service.manager.MallGoodsInfoManager;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author zheng haijain
@@ -67,5 +69,13 @@ public class MallGoodsInfoServiceImpl implements MallGoodsInfoService {
             return null;
         }
         return mallGoodsInfoManager.searchMallGoods(pageUtil, goodsCategoryId, orderBy, keyWord);
+    }
+
+    @Override
+    public Integer updateStockNum(List<StockNumDTO> stockNumDTOS) {
+        if (stockNumDTOS == null || stockNumDTOS.size() == 0) {
+            return 0;
+        }
+        return mallGoodsInfoManager.updateStockNum(stockNumDTOS);
     }
 }

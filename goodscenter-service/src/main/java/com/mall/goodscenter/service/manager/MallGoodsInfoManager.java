@@ -4,12 +4,15 @@ import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.MallGoodsInfoDTO;
 import com.mall.goodscenter.client.dto.MallGoodsPageDTO;
+import com.mall.goodscenter.client.dto.StockNumDTO;
 import com.mall.goodscenter.client.enums.ServiceResultEnum;
 import com.mall.goodscenter.dal.dao.GoodsInfoDAO;
 import com.mall.goodscenter.dal.dataobject.GoodsInfoDO;
 import com.mall.goodscenter.dal.dataobject.GoodsInfoPageDO;
+import com.mall.goodscenter.dal.dataobject.StockNumDO;
 import com.mall.goodscenter.service.converter.MallGoodsInfoConverter;
 import com.mall.goodscenter.service.converter.MallGoodsPageConverter;
+import com.mall.goodscenter.service.converter.MallStockNumConverter;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
@@ -88,6 +91,11 @@ public class MallGoodsInfoManager {
         int total = goodsInfoDAO.getTotalNewBeeMallGoodsBySearch(pageUtil.getStart(), pageUtil.getLimit(), goodsCategoryId, keyWord);
         PageResult pageResult = new PageResult(goodsInfoDTOS, total, pageUtil.getLimit(), pageUtil.getPage());
         return pageResult;
+    }
+
+    public Integer updateStockNum(List<StockNumDTO> stockNumDTOS) {
+        List<StockNumDO> stockNumDOS = stockNumDTOS.stream().map(MallStockNumConverter::dto2do).collect(Collectors.toList());
+        return goodsInfoDAO.updateStockNum(stockNumDOS);
     }
 
 }

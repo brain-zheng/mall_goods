@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68090c0a-29ef-4f81-b480-8b9d6a251158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/SearchPageCategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/enums/MallCategoryLevelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/StockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/StockNumDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallStockNumConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallGoodsInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallGoodsInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsCategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsCategoryDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCategoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCategoryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="375">
               <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallGoodsInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="960">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="555">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +97,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="435">
+              <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4065">
+              <caret line="271" column="16" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+              <folding>
+                <element signature="e#2845#2849#0" expanded="true" />
+                <element signature="e#2980#2984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,10 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/goodscenter-dal/pom.xml" />
-        <option value="$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/AdmincenterServerApplication.java" />
-        <option value="$PROJECT_DIR$/goodscenter-server/src/main/java/com/mall/goodscenter/server/GoodsCenterServerApplication.java" />
-        <option value="$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/BaseTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/BaseDO.java" />
         <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java" />
@@ -203,12 +209,16 @@
         <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/enums/MallCategoryLevelEnum.java" />
         <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallCategoryManager.java" />
-        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml" />
         <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsCategoryDAO.java" />
-        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallSt.java" />
+        <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/StockNumDTO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/StockNumDO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallStockNumConverter.java" />
         <option value="$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallGoodsInfoService.java" />
         <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java" />
+        <option value="$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml" />
       </list>
     </option>
   </component>
@@ -377,6 +387,16 @@
               <item name="goodscenter-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodsCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodsCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="goodscenter-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -447,8 +467,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -459,7 +479,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587289690898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587815071051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -622,7 +642,10 @@
       <workItem from="1587119861729" duration="747000" />
       <workItem from="1587196335838" duration="1892000" />
       <workItem from="1587204372818" duration="879000" />
-      <workItem from="1587282869788" duration="4199000" />
+      <workItem from="1587282869788" duration="4801000" />
+      <workItem from="1587455902191" duration="894000" />
+      <workItem from="1587533529727" duration="3337000" />
+      <workItem from="1587815491004" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="admincenter 登录功能完成">
       <created>1584778990307</created>
@@ -673,7 +696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587211285438</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="goodscenter 商品搜索模块">
+      <created>1587289709967</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587289709967</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -700,12 +730,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95935000" />
+    <option name="totallyTimeSpent" value="101751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -735,10 +766,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.21530758" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.21530758" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32904148" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -790,12 +821,10 @@
     <MESSAGE value="goodscenter 商品轮播图管理模块完成" />
     <MESSAGE value="goodscenter 商品分类标签模块" />
     <MESSAGE value="goodscenter 商品管理模块完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="goodscenter 商品管理模块完成" />
+    <MESSAGE value="goodscenter 商品搜索模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="goodscenter 商品搜索模块" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/answer.txt" />
     <entry file="file://$PROJECT_DIR$/goodscenter-server/src/test/java/com/mall/goodscenterserver/daltest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -853,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/CarouselDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/GoodsCategoryDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -874,27 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/util/PageQueryUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/GoodsInfoPageDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,31 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/GoodsInfoDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
-          <folding>
-            <element signature="e#2845#2849#0" expanded="true" />
-            <element signature="e#2980#2984#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,16 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mall/common/1.0.0/common-1.0.0.jar!/com/mall/common/service/util/PageResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1193,20 +1167,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/CarouselDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/GoodsInfoPageDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java">
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/CarouselDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/converter/MallStockNumConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/dto/StockNumDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dataobject/StockNumDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1215,8 +1230,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goodscenter-client/src/main/java/com/mall/goodscenter/client/service/MallGoodsInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="345">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/service/MallGoodsInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/java/com/mall/goodscenter/dal/dao/GoodsInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-dal/src/main/resources/mapper/GoodsInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="271" column="16" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+          <folding>
+            <element signature="e#2845#2849#0" expanded="true" />
+            <element signature="e#2980#2984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodscenter-service/src/main/java/com/mall/goodscenter/service/manager/MallGoodsInfoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

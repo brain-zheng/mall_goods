@@ -4,6 +4,7 @@ import com.mall.common.service.util.PageQueryUtil;
 import com.mall.common.service.util.PageResult;
 import com.mall.goodscenter.client.dto.MallGoodsInfoDTO;
 import com.mall.goodscenter.client.dto.MallGoodsPageDTO;
+import com.mall.goodscenter.client.dto.StockNumDTO;
 
 import java.util.List;
 
@@ -25,5 +26,7 @@ public interface MallGoodsInfoService {
     Boolean batchUpdateSellStatus(Integer[] ids,int sellStatus);
 
     PageResult searchMallGoods(PageQueryUtil pageUtil, Integer goodsCategoryId, String orderBy, String keyWord);
+
+    Integer updateStockNum(List<StockNumDTO> stockNumDTOS);
 
 }

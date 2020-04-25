@@ -3,6 +3,7 @@ package com.mall.goodscenter.dal.dao;
 import com.mall.common.service.util.PageQueryUtil;
 import com.mall.goodscenter.dal.dataobject.GoodsInfoDO;
 import com.mall.goodscenter.dal.dataobject.GoodsInfoPageDO;
+import com.mall.goodscenter.dal.dataobject.StockNumDO;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -30,5 +31,8 @@ public interface GoodsInfoDAO extends BaseDAO<GoodsInfoDO> {
                                         @Param("limit")Integer limit,
                                         @Param("goodsCategoryId") Integer goodsCategoryId,
                                         @Param("keyword") String keyword);
+
+
+    int updateStockNum(@Param("stockNumDOS") List<StockNumDO> stockNumDOS);
 
 }
